@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/src/models/reserva_model.dart';
+
 import 'package:flutter_application_1/src/services/reserva_service.dart';
 import 'package:flutter_application_1/src/widgets/reserva_card.dart';
 
@@ -39,6 +40,8 @@ class _ReservaWidgetState extends State<ReservaWidget> {
 
   _downloadreserva() async {
     _listreserva = await _reservaapp.getReserva();
-    setState(() {});
+    if (mounted) {
+      setState(() {});
+    }
   }
 }
