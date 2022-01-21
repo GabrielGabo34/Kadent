@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "869569312750",
+    "firebase_url": "https://clinica-kdent-b569f-default-rtdb.firebaseio.com",
+    "project_id": "clinica-kdent-b569f",
+    "storage_bucket": "clinica-kdent-b569f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:869569312750:android:3624c119ae1e0a662500ff",
+        "android_client_info": {
+          "package_name": "com.android.application"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "869569312750-ruqik33m9bifpc5e5v8bptu5d3eknglo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAv0T-JHxGAI6DMdry63a9MXnyP8n0aGj0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "869569312750-ruqik33m9bifpc5e5v8bptu5d3eknglo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:869569312750:android:55567f16963b06942500ff",
+        "android_client_info": {
+          "package_name": "com.example.flutter_application_1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "869569312750-ruqik33m9bifpc5e5v8bptu5d3eknglo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAv0T-JHxGAI6DMdry63a9MXnyP8n0aGj0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "869569312750-ruqik33m9bifpc5e5v8bptu5d3eknglo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

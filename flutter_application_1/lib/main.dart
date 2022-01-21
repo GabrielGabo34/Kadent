@@ -1,9 +1,14 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/src/pages/home_page.dart';
+import 'package:flutter_application_1/src/widgets/reg_widget.dart';
+import 'package:flutter_application_1/src/widgets/reserva_widget.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
 import 'package:get/get.dart';
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
+  Firebase.initializeApp();
   runApp(const MyApp());
 }
 
@@ -13,18 +18,9 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return GetMaterialApp(
+    return const GetMaterialApp(
       title: 'Kadent',
-      theme: ThemeData(
-        primarySwatch: Colors.pink,
-        scaffoldBackgroundColor: const Color(0xFFF6E6D9),
-      ),
-      home: Scaffold(
-          appBar: AppBar(
-            centerTitle: true,
-            title: const Text("Kadent notificaciones"),
-          ),
-          body: const HomePage()),
+      home: Scaffold(body: RegistroWidgtet()),
     );
   }
 }

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/src/providers/provider.dart';
+import 'package:flutter_application_1/src/widgets/reg_widget.dart';
 import 'package:flutter_application_1/src/widgets/reserva_widget.dart';
 import 'package:flutter_speed_dial/flutter_speed_dial.dart';
 import 'package:get/get.dart';
@@ -23,12 +24,12 @@ class _HomePageState extends State<HomePage> {
         animatedIcon: AnimatedIcons.menu_close,
         children: [
           SpeedDialChild(
-            child: Icon(Icons.lightbulb_outline),
+            child: const Icon(Icons.lightbulb_outline),
             label: 'Dia',
             onTap: () => temaController.temaClaro(),
           ),
           SpeedDialChild(
-            child: Icon(Icons.brightness_3),
+            child: const Icon(Icons.brightness_3),
             label: 'Noche',
             onTap: () => temaController.temaOscuro(),
           ),
